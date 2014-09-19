@@ -12,11 +12,15 @@ package githubtest;
  */
 public class GitHubTest {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    String text;
+    
+    
+    public GitHubTest(String str){
+        this.text = str;
+    }
+    
+    public void print(){
+        System.out.println(text);
     }
     
 }

@@ -23,4 +23,8 @@ public class GitHubTest {
         System.out.println(text);
     }
     
+    public void blabla(){
+        
+    }
+    
 }
